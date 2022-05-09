@@ -1,7 +1,8 @@
 # NEAR Integration with ButterCMS
 
-In this project your will learn how to integrate NEAR protocol with ButterCMS by creating a simple blog system in which users can access to any articles by paying the author of the article certain amount of NEAR token.  
+In this project you will learn how to integrate NEAR protocol with ButterCMS by creating a simple blog system in which users can access to any articles by paying the author of the article certain amount of NEAR token.  
 This project is based on [ButterCMS React Starter Project](https://github.com/ButterCMS/react-starter-buttercms).
+
 
 ## NEAR Features
 
@@ -25,7 +26,7 @@ This project is based on [ButterCMS React Starter Project](https://github.com/Bu
 - near-api-js
 
 ## Demo
-
+![Capture5](https://user-images.githubusercontent.com/104065781/167412964-e3b108f9-5e0a-4d2b-9c66-b4a780365848.PNG)
 You can test the deployed version of this project via [this link](https://buttercms-near-integration.herokuapp.com)
 
 ## Project structure
@@ -56,7 +57,9 @@ git clone https://github.com/gurambalavadze/near-integration-buttercms.git
 ```
 
 In order to start the project you need ButterCMS API key. Go to [ButterCMS](https://buttercms.com) and create an account.  
-Then go to [Settings](https://buttercms.com/settings), you should be able to see the Read API Token. copy that and open a terminal in the root of the porject directory and run
+Then go to [Settings](https://buttercms.com/settings), you should be able to see the Read API Token. 
+![Capture2](https://user-images.githubusercontent.com/104065781/167411453-62904533-d964-4778-9023-19ddd5b48ca7.PNG)
+copy that and open a terminal in the root of the porject directory and run
 
 ```bash
  echo 'REACT_APP_BUTTER_CMS_API_KEY=${your read API token}' >> .env
